@@ -1,0 +1,6 @@
+2018-04-15 20:40:43,140 [8] ERROR Ross.OA.Web.Controllers -    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Ross.OA.Repositories.Repository`2.Insert(TEntity entity) 位置 C:\Users\kimi\Source\Repos\Ross.OA\Ross.OA\Repositories\Repository.cs:行号 138
+   在 Ross.OA.Repositories.Repository`2.InsertOrUpdate(TEntity entity) 位置 C:\Users\kimi\Source\Repos\Ross.OA\Ross.OA\Repositories\Repository.cs:行号 169
+   在 Ross.OA.Web.Controllers.ShipController.InsertOrUpdateHD(ShipInput input) 位置 C:\Users\kimi\Source\Repos\Ross.OA\Ross.OA.Web\Controllers\ShipController.cs:行号 110
